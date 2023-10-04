@@ -234,7 +234,7 @@ export default function CalendarModal({
       onClose={handleClose}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
-      sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
+      sx={{ display: "flex", alignItems: "center", justifyContent: "center", marginLeft: "64px", marginRight: "64px" }}
     >
       <Box
         sx={{
@@ -254,7 +254,7 @@ export default function CalendarModal({
               fontWeight={500}
               color={"#303030"}
             >
-              {`Informações da grade`}
+              {`${event?.event?.id ? "Editar" : "Criar"} Evento`}
             </Typography>
           </Grid>
 
