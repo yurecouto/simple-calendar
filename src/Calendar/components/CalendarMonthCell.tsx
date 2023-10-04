@@ -46,6 +46,7 @@ export const CalendarMonthCell = ({
         height: "100px",
         backgroundColor: monthDays.includes(day) ? isHovered  ? "#f7f7f7" : "" : "#f7f7f7",
         cursor: "pointer",
+        width: "auto"
       }}
     >
       <WeekCellTitle text={getDayOfMonth(day).toString()} />

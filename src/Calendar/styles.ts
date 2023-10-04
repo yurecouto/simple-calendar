@@ -15,7 +15,6 @@ const SubContainer = styled(MuiPaper)({
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'flex-start',
-  minWidth: '960px',
 });
 
 export { Container, SubContainer };
